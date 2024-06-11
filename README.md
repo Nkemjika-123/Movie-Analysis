@@ -28,7 +28,8 @@ You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-An
 
 ## Introduction
 The dataset contains information about movies from IMDB with the following columns:
-+ ** Rank**: The ranking of the movie.
+
++ **Rank**: The ranking of the movie.
 + **Title**: The title of the movie.
 + **Genre**: The genre of the movie.
 + **Description**: A brief description of the movie.
