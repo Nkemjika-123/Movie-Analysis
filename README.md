@@ -4,7 +4,7 @@
 ### Welcome to the **Movie Data Analysis project**. This repository provides insights into a dataset of movies, analyzing various aspects like runtime, ratings, votes, revenue, and more.
 ###
 
-You can interact with the report [HERE](http://localhost:8889/notebooks/Documents/Movie%20DataSet-Copy3.ipynb)
+You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-Analysis/blob/main/Movie%20DataSet-Copy3.ipynb)
 
 
 ## Table of Contents
