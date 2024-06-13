@@ -86,3 +86,5 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 **dup_data = data.duplicated().any().**
 
 •	**data_cleaned = data.fillna({'Revenue (Millions)': 0})** was used to replace missing values in **Revenue(Millions)** column with '0'
+
+
