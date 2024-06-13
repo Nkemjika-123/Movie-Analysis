@@ -204,3 +204,5 @@ sns.scatterplot(x='Rating',y='Revenue (Millions)', data=data)
 plt.show()
 
 ![9](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/7480bb21-6ddc-431a-a539-ee99dbc3c4b5)
+
+You can interact with the report [HERE](http://localhost:8889/notebooks/Documents/Movie%20DataSet-Copy3.ipynb)
