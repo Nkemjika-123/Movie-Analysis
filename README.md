@@ -123,3 +123,19 @@ plt.grid(False)
 plt.show()
 
 ![2](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/eaeb788d-bf2f-488a-8537-2f054c1081c2)
+
+**average rating for top 10 directors**
+mean_rating_per_director = data.groupby('Director')['Rating'].mean()
+top_10_directors = mean_rating_per_director.sort_values(ascending=False).head(10)
+print(top_10_directors)
+
+plt.figure(figsize = (10,6))  
+top_10_directors.plot(kind = 'bar')
+plt.xlabel('Director')
+plt.ylabel('Average Rating')
+plt.title('Top 10 Directors by Average Rating')
+plt.xticks(rotation=45, ha = 'right')
+plt.grid(False)
+plt.show()
+
+![3](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/c715f178-51ac-4e97-aad1-be3cc7fa0c91)
