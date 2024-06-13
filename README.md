@@ -107,4 +107,5 @@ plt.title('Average Votes by Year')
 plt.grid(False) 
 plt.show()
 
+![1](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/2e35cc4a-7228-435e-aead-b1e2ad5588fb)
 
