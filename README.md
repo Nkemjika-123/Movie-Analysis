@@ -85,5 +85,23 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 +	Duplicate entries are removed to prevent skewed analysis using 
 **dup_data = data.duplicated().any().**
 
+## Data Exploration and Visualization
+This section is vital for understanding the underlying patterns and trends in the dataset. These were the codes used:
+**Title of movie having runtime >=180mins**
+data[data['Runtime (Minutes)']>= 180]['Title']
+
+**show variation btw year had the highest voting**
+data.groupby('Year')['Votes'].mean().sort_values(ascending = False)
+
+
+**show variation btw year had the highest average voting**
+avg_votes_per_yr = data.groupby('Year')['Votes'].mean()
+plt.figure(figsize = (10,6))  
+plt.bar(avg_votes_per_yr.index, avg_votes_per_yr.values, color = 'red')
+plt.xlabel('Year')
+plt.ylabel('Average Votes')
+plt.title('Average Votes by Year')
+plt.grid(False) 
+plt.show()
 
 
