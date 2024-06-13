@@ -80,6 +80,8 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 3. Data Cleaning:
    
 •	check for missing values with **data.isnull().sum()**
+
 •	Duplicate entries are removed to prevent skewed analysis using 
 **dup_data = data.duplicated().any().**
-•	**data_cleaned = data.fillna({'Revenue (Millions)': 0})**
+
+•	**data_cleaned = data.fillna({'Revenue (Millions)': 0})** was used to replace missing values in **Revenue(Millions)** column with '0'
