@@ -68,3 +68,14 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 9. Top 10 movies that generated the highest revenue.
 10. Average rating of movies each year.
 11. The effect of ratings on revenue. 
+
+## Data Preparation and Transformation
+1. Importing Libraries:
+•	Libraries such as **pandas** for data manipulation,  **matplotlib** and **seaborn** for visualization are imported.
+2. Loading the Data:
+•	The IMDB dataset is loaded using **pandas.read_csv** function.
+3. Data Cleaning:
+•	check for missing values with data.isnull().sum()
+•	Duplicate entries are removed to prevent skewed analysis using 
+dup_data = data.duplicated().any().
+•	data_cleaned = data.fillna({'Revenue (Millions)': 0})
