@@ -70,7 +70,9 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 11. The effect of ratings on revenue. 
 
 ## Data Preparation and Transformation
-1. Importing Libraries:
+```Python
+
+. Importing Libraries:
    
 +	Libraries such as **pandas** for data manipulation,  **matplotlib** and **seaborn** for visualization are imported.
 
