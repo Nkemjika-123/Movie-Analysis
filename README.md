@@ -70,7 +70,7 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 11. The effect of ratings on revenue. 
 
 ## Data Preparation and Transformation
-```Python
+This was done using jupyter notebook Python
 
 . Importing Libraries:
    
