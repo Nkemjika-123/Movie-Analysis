@@ -57,4 +57,14 @@ This project aims to analyze a dataset containing information about movies from 
 The data used for this project was from [HERE](https://www.kaggle.com/datasets/PromptCloudHQ/imdb-data)
 
 ### Analysis Questions: 
-1. Titles of movies with a runtime of 180 minutes or more. 2. Average number of votes per year, sorted in descending order. 3. The year with the highest average revenue. 4. Average rating for the top 10 directors. 5. Top 10 longest movies and their runtimes. 6. Number of movies released each year. 7. Most popular movie title. 8. Top 10 highest-rated movie titles and their directors. 9. Top 10 movies that generated the highest revenue. 10. Average rating of movies each year. 11. The effect of ratings on revenue. 
+1. Titles of movies with a runtime of 180 minutes or more.
+2. Average number of votes per year, sorted in descending order.
+3. The year with the highest average revenue.
+4. Average rating for the top 10 directors.
+5. Top 10 longest movies and their runtimes.
+6. Number of movies released each year.
+7. Most popular movie title.
+8. Top 10 highest-rated movie titles and their directors.
+9. Top 10 movies that generated the highest revenue.
+10. Average rating of movies each year.
+11. The effect of ratings on revenue. 
