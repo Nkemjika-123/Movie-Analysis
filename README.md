@@ -107,5 +107,19 @@ plt.title('Average Votes by Year')
 plt.grid(False) 
 plt.show()
 
-![1](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/2e35cc4a-7228-435e-aead-b1e2ad5588fb)
+![1 (1)](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/c331b851-c2b5-441e-90e6-8d739c2fdb2f)
 
+
+**which year had the highest average revenue** 
+data.groupby('Year')['Revenue (Millions)'].mean().sort_values(ascending = False)
+
+avg_revenue_per_yr = data.groupby('Year')['Revenue (Millions)'].mean()
+plt.figure(figsize = (10,6))  
+plt.barh(avg_revenue_per_yr.index, avg_revenue_per_yr.values, color = 'darkblue')
+plt.xlabel('Average Revenue (Millions)')
+plt.ylabel('Year')
+plt.title('Average Revenue (Millions) by Year')
+plt.grid(False)
+plt.show()
+
+![2](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/eaeb788d-bf2f-488a-8537-2f054c1081c2)
