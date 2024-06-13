@@ -89,6 +89,7 @@ This was done using jupyter notebook Python
 
 ## Data Exploration and Visualization
 This section is vital for understanding the underlying patterns and trends in the dataset. These were the codes used:
+
 **Title of movie having runtime >=180mins**
 data[data['Runtime (Minutes)']>= 180]['Title']
 
