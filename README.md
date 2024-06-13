@@ -139,3 +139,68 @@ plt.grid(False)
 plt.show()
 
 ![3](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/c715f178-51ac-4e97-aad1-be3cc7fa0c91)
+
+**top 10 lengthy movies and runtime**
+Top10_len=data.nlargest(10,'Runtime (Minutes)' )[['Title', 'Runtime (Minutes)']].set_index('Title')
+Top10_len
+
+sns.barplot(x='Runtime (Minutes)', y=Top10_len.index, data=Top10_len)
+plt.title('Top 10 Movies by Runtime(Minutes)')
+plt.show()
+
+![4](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/922efd37-f415-4c37-bb76-4b43edaa283e)
+
+**how many movies were watched in each year**
+data['Year'].value_counts()
+
+sns.countplot(x='Year', data=data, color = 'darkblue')
+plt.ylabel('Number of Movies Released')
+plt.title('Number of Movies Per Year')
+plt.show()
+
+![5](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/0554b981-8be9-4c76-bae3-b5079db1627b)
+
+**top 10 highest rated movie titles and its directors**
+Top10_len=data.nlargest(10,'Rating' )[['Title', 'Rating', 'Director']].set_index('Title')
+Top10_len
+
+sns.barplot(x='Rating', y=Top10_len.index, data=Top10_len, hue='Director', dodge=False)
+plt.legend(bbox_to_anchor=(1.05,1), loc=2)
+plt.xlabel('Title')
+plt.ylabel('Rating')
+plt.title('Top Movies by Rating')
+plt.xticks(rotation = 45)
+plt.grid(False)
+plt.show()
+
+![6](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/fdcd4377-a548-4698-904a-23fab8b9a97b)
+
+**top 10 highest revenue movie titles**
+Top_10=data.nlargest(10, 'Revenue (Millions)')[['Title','Revenue (Millions)']].set_index('Title')
+Top_10
+
+sns.lineplot(x='Revenue (Millions)',y=Top_10.index, data=Top_10, marker ='o', color = 'darkblue')
+plt.grid(False)
+plt.title('Top 10 Highest Revenue Movie Titles')
+plt.show()
+
+![7](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/49eb2966-fb53-4fc5-8ce6-4fdfdc7a720d)
+
+**Average rating of movies Year wise**
+average_rating_by_year=data.groupby('Year')['Rating'].mean().sort_values(ascending = False)
+average_rating_by_year
+
+plt.bar(average_rating_by_year.index, average_rating_by_year.values, color='darkblue')
+plt.xlabel('Year')
+plt.ylabel('Average Rating')
+plt.title('Average Rating of Movies Year-wise')
+plt.xticks(rotation=45)
+plt.show()
+
+![8](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/a4bc10d6-dae6-4884-8dd1-89372f0d837b)
+
+**Does rating affect revenue**
+sns.scatterplot(x='Rating',y='Revenue (Millions)', data=data)
+plt.show()
+
+![9](https://github.com/Nkemjika-123/Movie-Analysis/assets/152037119/7480bb21-6ddc-431a-a539-ee99dbc3c4b5)
