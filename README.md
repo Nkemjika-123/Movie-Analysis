@@ -72,19 +72,18 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 ## Data Preparation and Transformation
 1. Importing Libraries:
    
-•	Libraries such as **pandas** for data manipulation,  **matplotlib** and **seaborn** for visualization are imported.
++	Libraries such as **pandas** for data manipulation,  **matplotlib** and **seaborn** for visualization are imported.
 
 2. Loading the Data:
 
-•	The IMDB dataset is loaded using **pandas.read_csv** function.
++	The IMDB dataset is loaded using **pandas.read_csv** function.
 
 3. Data Cleaning:
    
-•	check for missing values with **data.isnull().sum()**
++	check for missing values with **data.isnull().sum()**
 
-•	Duplicate entries are removed to prevent skewed analysis using 
++	Duplicate entries are removed to prevent skewed analysis using 
 **dup_data = data.duplicated().any().**
 
-•	**data_cleaned = data.fillna({'Revenue (Millions)': 0})** was used to replace missing values in **Revenue(Millions)** column with '0'
 
 
