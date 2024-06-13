@@ -73,6 +73,7 @@ The data used for this project was from [HERE](https://www.kaggle.com/datasets/P
 1. Importing Libraries:
    
 •	Libraries such as **pandas** for data manipulation,  **matplotlib** and **seaborn** for visualization are imported.
+
 2. Loading the Data:
 
 •	The IMDB dataset is loaded using **pandas.read_csv** function.
