@@ -10,7 +10,6 @@ You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-An
 
 
 ## Table of Contents
-
 [Introduction](#introduction)
 
 [Objectives](#objectives)
