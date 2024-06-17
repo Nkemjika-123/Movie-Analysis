@@ -208,7 +208,8 @@ plt.show()
 You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-Analysis/blob/main/Movie%20DataSet-Copy3.ipynb)
 
 ## Analysis and Findings/Insights
-+           2012 had the highest movie engagement.	
+
++ 2012 had the highest movie engagement.	
 +	The movie industry was most successful in the year 2009 because that was when they had the highest revenue.
 +	Nitesh is the highest rated director, followed by Christopher.
 +	Grindhouse movie stands out for its extended duration.
@@ -218,6 +219,7 @@ You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-An
 +	As rating was increasing, revenue was also increasing.
 
 ## Recommendations
+
 + Conduct marketing campaigns and promotions during peak engagement periods to maximize audience reach.
 
 + Invest in and promote movies that were rated highest like directors Nitesh and Christopher. Their reputation for quality can attract larger. You can establish partnership with them for future projects. 
@@ -235,4 +237,5 @@ You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-An
 
 
 ### Conclusion
+
 These recommendations aim to leverage historical insights to improve future movie performance, audience engagement, and financial success. By understanding past trends and implementing targeted strategies, stakeholders can optimize their approach to movie production, marketing, and release scheduling. Audience feedback and critical reviews should be considered to improve movie quality and rating.
