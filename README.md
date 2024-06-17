@@ -236,6 +236,6 @@ You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-An
 
 
 
-### Conclusion
+## Conclusion
 
 These recommendations aim to leverage historical insights to improve future movie performance, audience engagement, and financial success. By understanding past trends and implementing targeted strategies, stakeholders can optimize their approach to movie production, marketing, and release scheduling. Audience feedback and critical reviews should be considered to improve movie quality and rating.
