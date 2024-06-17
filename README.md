@@ -16,7 +16,7 @@ You can interact with the report [HERE](https://github.com/Nkemjika-123/Movie-An
 
 [Data Source](#data-source)
 
-[Tasks](#tasks)
+[Analysis Questions](#analysis-questions)
 
 [Data Preparation and Transformation](#data-preparation-and-transformation)
 
